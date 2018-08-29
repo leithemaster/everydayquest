@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CustomHeaderView" customModule="Everyday_Quest" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xxJ-75-cGA">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="header" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FSX-wW-IU8">
+                            <rect key="frame" x="13" y="0.0" width="187.5" height="30"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="sub" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fmj-da-yMG">
+                            <rect key="frame" x="13" y="30" width="187.5" height="26"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V3l-aA-tEF">
+                            <rect key="frame" x="339" y="0.0" width="36" height="60"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="36" id="k18-ig-oXM"/>
+                            </constraints>
+                            <state key="normal" title="Edit"/>
+                            <connections>
+                                <action selector="edit:" destination="-2" eventType="touchUpInside" id="2cq-aa-A8W"/>
+                            </connections>
+                        </button>
+                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="igM-U6-syz">
+                            <rect key="frame" x="329" y="0.0" width="46" height="60"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="46" id="zCl-xk-LCy"/>
+                            </constraints>
+                            <state key="normal" title="Add"/>
+                            <connections>
+                                <action selector="newList:" destination="-2" eventType="touchUpInside" id="iOE-RZ-xns"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.87220039373727021" green="0.87220039373727021" blue="0.87220039373727021" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="V3l-aA-tEF" secondAttribute="bottom" id="49k-nj-s57"/>
+                        <constraint firstItem="fmj-da-yMG" firstAttribute="leading" secondItem="xxJ-75-cGA" secondAttribute="leading" constant="13" id="664-Aj-0FS"/>
+                        <constraint firstItem="V3l-aA-tEF" firstAttribute="top" secondItem="xxJ-75-cGA" secondAttribute="top" id="6T0-AI-tyV"/>
+                        <constraint firstItem="fmj-da-yMG" firstAttribute="top" secondItem="FSX-wW-IU8" secondAttribute="bottom" id="6jA-i7-D9P"/>
+                        <constraint firstAttribute="bottom" secondItem="fmj-da-yMG" secondAttribute="bottom" constant="4" id="Efl-mO-0v6"/>
+                        <constraint firstItem="FSX-wW-IU8" firstAttribute="top" secondItem="xxJ-75-cGA" secondAttribute="top" id="IBq-rh-tNb"/>
+                        <constraint firstItem="fmj-da-yMG" firstAttribute="top" secondItem="FSX-wW-IU8" secondAttribute="bottom" id="LYB-k1-cWp"/>
+                        <constraint firstItem="FSX-wW-IU8" firstAttribute="leading" secondItem="xxJ-75-cGA" secondAttribute="leading" constant="13" id="ae9-iH-fh0"/>
+                        <constraint firstAttribute="bottom" secondItem="igM-U6-syz" secondAttribute="bottom" id="efP-Hz-SaM"/>
+                        <constraint firstItem="FSX-wW-IU8" firstAttribute="height" secondItem="xxJ-75-cGA" secondAttribute="height" multiplier="0.5" id="lbj-A1-ebb"/>
+                        <constraint firstItem="igM-U6-syz" firstAttribute="top" secondItem="xxJ-75-cGA" secondAttribute="top" id="rgi-Zd-FGD"/>
+                        <constraint firstItem="FSX-wW-IU8" firstAttribute="width" secondItem="xxJ-75-cGA" secondAttribute="width" multiplier="0.5" id="uPk-Qd-ZEw"/>
+                        <constraint firstItem="fmj-da-yMG" firstAttribute="width" secondItem="FSX-wW-IU8" secondAttribute="width" id="xnJ-eH-qAz"/>
+                        <constraint firstAttribute="trailing" secondItem="igM-U6-syz" secondAttribute="trailing" id="xng-ZS-1Nn"/>
+                        <constraint firstAttribute="trailing" secondItem="V3l-aA-tEF" secondAttribute="trailing" id="zbD-HS-u1I"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="xxJ-75-cGA" secondAttribute="bottom" id="5Gf-Ma-0Vl"/>
+                <constraint firstAttribute="trailing" secondItem="xxJ-75-cGA" secondAttribute="trailing" id="Inu-2p-Qjf"/>
+                <constraint firstItem="xxJ-75-cGA" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="T0P-cy-UUc"/>
+                <constraint firstItem="xxJ-75-cGA" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="wTy-mC-BUY"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="add" destination="igM-U6-syz" id="ru0-0X-9GW"/>
+                <outlet property="editOrAdd" destination="V3l-aA-tEF" id="HJ4-Aa-Zan"/>
+                <outlet property="headerLable" destination="FSX-wW-IU8" id="37T-Fb-4M4"/>
+                <outlet property="subLabel" destination="fmj-da-yMG" id="2mA-y2-QsJ"/>
+            </connections>
+            <point key="canvasLocation" x="33.5" y="55"/>
+        </view>
+    </objects>
+</document>

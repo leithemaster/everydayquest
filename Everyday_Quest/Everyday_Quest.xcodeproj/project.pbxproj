@@ -1,0 +1,876 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C18B2AD2065BBA100AA389F /* AddingQuestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C18B2AC2065BBA100AA389F /* AddingQuestVC.swift */; };
+		1C18B2AE2066170100AA389F /* Quest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C984B4D2058661D0076FD18 /* Quest.swift */; };
+		1C18B2B020662EC400AA389F /* good.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C18B2AF20662EC400AA389F /* good.mp3 */; };
+		1C18B2B2206633E400AA389F /* bad.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C18B2B1206633E400AA389F /* bad.mp3 */; };
+		1C984AF420585CC10076FD18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C984AF320585CC10076FD18 /* AppDelegate.swift */; };
+		1C984AF920585CC10076FD18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C984AF720585CC10076FD18 /* Main.storyboard */; };
+		1C984AFB20585CC10076FD18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C984AFA20585CC10076FD18 /* Assets.xcassets */; };
+		1C984AFE20585CC10076FD18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C984AFC20585CC10076FD18 /* LaunchScreen.storyboard */; };
+		1C984B0920585CC10076FD18 /* Everyday_QuestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C984B0820585CC10076FD18 /* Everyday_QuestTests.swift */; };
+		1C984B1420585CC10076FD18 /* Everyday_QuestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C984B1320585CC10076FD18 /* Everyday_QuestUITests.swift */; };
+		1C984B1920585CC10076FD18 /* Everyday_Quest WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1C984B1820585CC10076FD18 /* Everyday_Quest WatchKit App.app */; };
+		1C984B1F20585CC10076FD18 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C984B1D20585CC10076FD18 /* Interface.storyboard */; };
+		1C984B2120585CC10076FD18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C984B2020585CC10076FD18 /* Assets.xcassets */; };
+		1C984B2820585CC10076FD18 /* Everyday_Quest WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1C984B2720585CC10076FD18 /* Everyday_Quest WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1C984B2D20585CC10076FD18 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C984B2C20585CC10076FD18 /* InterfaceController.swift */; };
+		1C984B2F20585CC10076FD18 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C984B2E20585CC10076FD18 /* ExtensionDelegate.swift */; };
+		1C984B3120585CC10076FD18 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C984B3020585CC10076FD18 /* NotificationController.swift */; };
+		1C984B3320585CC10076FD18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C984B3220585CC10076FD18 /* Assets.xcassets */; };
+		1C984B4E2058661D0076FD18 /* Quest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C984B4D2058661D0076FD18 /* Quest.swift */; };
+		1C984B5020586CBB0076FD18 /* CustomHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C984B4F20586CBA0076FD18 /* CustomHeader.xib */; };
+		1C984B56205875900076FD18 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C984B512058758F0076FD18 /* CustomCell.swift */; };
+		1C984B57205875900076FD18 /* CustomHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C984B522058758F0076FD18 /* CustomHeaderView.swift */; };
+		1C984B58205875900076FD18 /* QuestDetailCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C984B53205875900076FD18 /* QuestDetailCustomCell.swift */; };
+		1C984B59205875900076FD18 /* QuestDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C984B54205875900076FD18 /* QuestDetail.swift */; };
+		1C984B5A205875900076FD18 /* QuestListTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C984B55205875900076FD18 /* QuestListTableView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C984B0520585CC10076FD18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C984AE820585CC00076FD18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C984AEF20585CC10076FD18;
+			remoteInfo = Everyday_Quest;
+		};
+		1C984B1020585CC10076FD18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C984AE820585CC00076FD18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C984AEF20585CC10076FD18;
+			remoteInfo = Everyday_Quest;
+		};
+		1C984B1A20585CC10076FD18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C984AE820585CC00076FD18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C984B1720585CC10076FD18;
+			remoteInfo = "Everyday_Quest WatchKit App";
+		};
+		1C984B2920585CC10076FD18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C984AE820585CC00076FD18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C984B2620585CC10076FD18;
+			remoteInfo = "Everyday_Quest WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1C984B3B20585CC10076FD18 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1C984B2820585CC10076FD18 /* Everyday_Quest WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C984B3F20585CC10076FD18 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				1C984B1920585CC10076FD18 /* Everyday_Quest WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1C18B2AC2065BBA100AA389F /* AddingQuestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingQuestVC.swift; sourceTree = "<group>"; };
+		1C18B2AF20662EC400AA389F /* good.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = good.mp3; sourceTree = "<group>"; };
+		1C18B2B1206633E400AA389F /* bad.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bad.mp3; sourceTree = "<group>"; };
+		1C984AF020585CC10076FD18 /* Everyday_Quest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Everyday_Quest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C984AF320585CC10076FD18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1C984AF820585CC10076FD18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1C984AFA20585CC10076FD18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C984AFD20585CC10076FD18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1C984AFF20585CC10076FD18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C984B0420585CC10076FD18 /* Everyday_QuestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Everyday_QuestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C984B0820585CC10076FD18 /* Everyday_QuestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Everyday_QuestTests.swift; sourceTree = "<group>"; };
+		1C984B0A20585CC10076FD18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C984B0F20585CC10076FD18 /* Everyday_QuestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Everyday_QuestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C984B1320585CC10076FD18 /* Everyday_QuestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Everyday_QuestUITests.swift; sourceTree = "<group>"; };
+		1C984B1520585CC10076FD18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C984B1820585CC10076FD18 /* Everyday_Quest WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Everyday_Quest WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C984B1E20585CC10076FD18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		1C984B2020585CC10076FD18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C984B2220585CC10076FD18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C984B2720585CC10076FD18 /* Everyday_Quest WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Everyday_Quest WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C984B2C20585CC10076FD18 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		1C984B2E20585CC10076FD18 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		1C984B3020585CC10076FD18 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		1C984B3220585CC10076FD18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C984B3420585CC10076FD18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C984B3520585CC10076FD18 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		1C984B4D2058661D0076FD18 /* Quest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quest.swift; sourceTree = "<group>"; };
+		1C984B4F20586CBA0076FD18 /* CustomHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomHeader.xib; sourceTree = "<group>"; };
+		1C984B512058758F0076FD18 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		1C984B522058758F0076FD18 /* CustomHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomHeaderView.swift; sourceTree = "<group>"; };
+		1C984B53205875900076FD18 /* QuestDetailCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestDetailCustomCell.swift; sourceTree = "<group>"; };
+		1C984B54205875900076FD18 /* QuestDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestDetail.swift; sourceTree = "<group>"; };
+		1C984B55205875900076FD18 /* QuestListTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestListTableView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C984AED20585CC10076FD18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C984B0120585CC10076FD18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C984B0C20585CC10076FD18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C984B2420585CC10076FD18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C984AE720585CC00076FD18 = {
+			isa = PBXGroup;
+			children = (
+				1C984AF220585CC10076FD18 /* Everyday_Quest */,
+				1C984B0720585CC10076FD18 /* Everyday_QuestTests */,
+				1C984B1220585CC10076FD18 /* Everyday_QuestUITests */,
+				1C984B1C20585CC10076FD18 /* Everyday_Quest WatchKit App */,
+				1C984B2B20585CC10076FD18 /* Everyday_Quest WatchKit Extension */,
+				1C984AF120585CC10076FD18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C984AF120585CC10076FD18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C984AF020585CC10076FD18 /* Everyday_Quest.app */,
+				1C984B0420585CC10076FD18 /* Everyday_QuestTests.xctest */,
+				1C984B0F20585CC10076FD18 /* Everyday_QuestUITests.xctest */,
+				1C984B1820585CC10076FD18 /* Everyday_Quest WatchKit App.app */,
+				1C984B2720585CC10076FD18 /* Everyday_Quest WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C984AF220585CC10076FD18 /* Everyday_Quest */ = {
+			isa = PBXGroup;
+			children = (
+				1C984AF320585CC10076FD18 /* AppDelegate.swift */,
+				1C984B55205875900076FD18 /* QuestListTableView.swift */,
+				1C18B2AC2065BBA100AA389F /* AddingQuestVC.swift */,
+				1C984B54205875900076FD18 /* QuestDetail.swift */,
+				1C984B53205875900076FD18 /* QuestDetailCustomCell.swift */,
+				1C984B512058758F0076FD18 /* CustomCell.swift */,
+				1C984B522058758F0076FD18 /* CustomHeaderView.swift */,
+				1C984B4D2058661D0076FD18 /* Quest.swift */,
+				1C984AF720585CC10076FD18 /* Main.storyboard */,
+				1C984B4F20586CBA0076FD18 /* CustomHeader.xib */,
+				1C984AFA20585CC10076FD18 /* Assets.xcassets */,
+				1C984AFC20585CC10076FD18 /* LaunchScreen.storyboard */,
+				1C984AFF20585CC10076FD18 /* Info.plist */,
+				1C18B2B1206633E400AA389F /* bad.mp3 */,
+				1C18B2AF20662EC400AA389F /* good.mp3 */,
+			);
+			path = Everyday_Quest;
+			sourceTree = "<group>";
+		};
+		1C984B0720585CC10076FD18 /* Everyday_QuestTests */ = {
+			isa = PBXGroup;
+			children = (
+				1C984B0820585CC10076FD18 /* Everyday_QuestTests.swift */,
+				1C984B0A20585CC10076FD18 /* Info.plist */,
+			);
+			path = Everyday_QuestTests;
+			sourceTree = "<group>";
+		};
+		1C984B1220585CC10076FD18 /* Everyday_QuestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1C984B1320585CC10076FD18 /* Everyday_QuestUITests.swift */,
+				1C984B1520585CC10076FD18 /* Info.plist */,
+			);
+			path = Everyday_QuestUITests;
+			sourceTree = "<group>";
+		};
+		1C984B1C20585CC10076FD18 /* Everyday_Quest WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				1C984B1D20585CC10076FD18 /* Interface.storyboard */,
+				1C984B2020585CC10076FD18 /* Assets.xcassets */,
+				1C984B2220585CC10076FD18 /* Info.plist */,
+			);
+			path = "Everyday_Quest WatchKit App";
+			sourceTree = "<group>";
+		};
+		1C984B2B20585CC10076FD18 /* Everyday_Quest WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1C984B2C20585CC10076FD18 /* InterfaceController.swift */,
+				1C984B2E20585CC10076FD18 /* ExtensionDelegate.swift */,
+				1C984B3020585CC10076FD18 /* NotificationController.swift */,
+				1C984B3220585CC10076FD18 /* Assets.xcassets */,
+				1C984B3420585CC10076FD18 /* Info.plist */,
+				1C984B3520585CC10076FD18 /* PushNotificationPayload.apns */,
+			);
+			path = "Everyday_Quest WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C984AEF20585CC10076FD18 /* Everyday_Quest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C984B4020585CC10076FD18 /* Build configuration list for PBXNativeTarget "Everyday_Quest" */;
+			buildPhases = (
+				1C984AEC20585CC10076FD18 /* Sources */,
+				1C984AED20585CC10076FD18 /* Frameworks */,
+				1C984AEE20585CC10076FD18 /* Resources */,
+				1C984B3F20585CC10076FD18 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C984B1B20585CC10076FD18 /* PBXTargetDependency */,
+			);
+			name = Everyday_Quest;
+			productName = Everyday_Quest;
+			productReference = 1C984AF020585CC10076FD18 /* Everyday_Quest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1C984B0320585CC10076FD18 /* Everyday_QuestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C984B4320585CC10076FD18 /* Build configuration list for PBXNativeTarget "Everyday_QuestTests" */;
+			buildPhases = (
+				1C984B0020585CC10076FD18 /* Sources */,
+				1C984B0120585CC10076FD18 /* Frameworks */,
+				1C984B0220585CC10076FD18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C984B0620585CC10076FD18 /* PBXTargetDependency */,
+			);
+			name = Everyday_QuestTests;
+			productName = Everyday_QuestTests;
+			productReference = 1C984B0420585CC10076FD18 /* Everyday_QuestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1C984B0E20585CC10076FD18 /* Everyday_QuestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C984B4620585CC10076FD18 /* Build configuration list for PBXNativeTarget "Everyday_QuestUITests" */;
+			buildPhases = (
+				1C984B0B20585CC10076FD18 /* Sources */,
+				1C984B0C20585CC10076FD18 /* Frameworks */,
+				1C984B0D20585CC10076FD18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C984B1120585CC10076FD18 /* PBXTargetDependency */,
+			);
+			name = Everyday_QuestUITests;
+			productName = Everyday_QuestUITests;
+			productReference = 1C984B0F20585CC10076FD18 /* Everyday_QuestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		1C984B1720585CC10076FD18 /* Everyday_Quest WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C984B3C20585CC10076FD18 /* Build configuration list for PBXNativeTarget "Everyday_Quest WatchKit App" */;
+			buildPhases = (
+				1C984B1620585CC10076FD18 /* Resources */,
+				1C984B3B20585CC10076FD18 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C984B2A20585CC10076FD18 /* PBXTargetDependency */,
+			);
+			name = "Everyday_Quest WatchKit App";
+			productName = "Everyday_Quest WatchKit App";
+			productReference = 1C984B1820585CC10076FD18 /* Everyday_Quest WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		1C984B2620585CC10076FD18 /* Everyday_Quest WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C984B3820585CC10076FD18 /* Build configuration list for PBXNativeTarget "Everyday_Quest WatchKit Extension" */;
+			buildPhases = (
+				1C984B2320585CC10076FD18 /* Sources */,
+				1C984B2420585CC10076FD18 /* Frameworks */,
+				1C984B2520585CC10076FD18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Everyday_Quest WatchKit Extension";
+			productName = "Everyday_Quest WatchKit Extension";
+			productReference = 1C984B2720585CC10076FD18 /* Everyday_Quest WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C984AE820585CC00076FD18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Liem Nguyen";
+				TargetAttributes = {
+					1C984AEF20585CC10076FD18 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					1C984B0320585CC10076FD18 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1C984AEF20585CC10076FD18;
+					};
+					1C984B0E20585CC10076FD18 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1C984AEF20585CC10076FD18;
+					};
+					1C984B1720585CC10076FD18 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					1C984B2620585CC10076FD18 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1C984AEB20585CC00076FD18 /* Build configuration list for PBXProject "Everyday_Quest" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C984AE720585CC00076FD18;
+			productRefGroup = 1C984AF120585CC10076FD18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C984AEF20585CC10076FD18 /* Everyday_Quest */,
+				1C984B0320585CC10076FD18 /* Everyday_QuestTests */,
+				1C984B0E20585CC10076FD18 /* Everyday_QuestUITests */,
+				1C984B1720585CC10076FD18 /* Everyday_Quest WatchKit App */,
+				1C984B2620585CC10076FD18 /* Everyday_Quest WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C984AEE20585CC10076FD18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C18B2B2206633E400AA389F /* bad.mp3 in Resources */,
+				1C984AFE20585CC10076FD18 /* LaunchScreen.storyboard in Resources */,
+				1C18B2B020662EC400AA389F /* good.mp3 in Resources */,
+				1C984B5020586CBB0076FD18 /* CustomHeader.xib in Resources */,
+				1C984AFB20585CC10076FD18 /* Assets.xcassets in Resources */,
+				1C984AF920585CC10076FD18 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C984B0220585CC10076FD18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C984B0D20585CC10076FD18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C984B1620585CC10076FD18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C984B2120585CC10076FD18 /* Assets.xcassets in Resources */,
+				1C984B1F20585CC10076FD18 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C984B2520585CC10076FD18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C984B3320585CC10076FD18 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C984AEC20585CC10076FD18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C984B57205875900076FD18 /* CustomHeaderView.swift in Sources */,
+				1C18B2AD2065BBA100AA389F /* AddingQuestVC.swift in Sources */,
+				1C984B4E2058661D0076FD18 /* Quest.swift in Sources */,
+				1C984AF420585CC10076FD18 /* AppDelegate.swift in Sources */,
+				1C984B56205875900076FD18 /* CustomCell.swift in Sources */,
+				1C984B59205875900076FD18 /* QuestDetail.swift in Sources */,
+				1C984B5A205875900076FD18 /* QuestListTableView.swift in Sources */,
+				1C984B58205875900076FD18 /* QuestDetailCustomCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C984B0020585CC10076FD18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C984B0920585CC10076FD18 /* Everyday_QuestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C984B0B20585CC10076FD18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C984B1420585CC10076FD18 /* Everyday_QuestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C984B2320585CC10076FD18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C18B2AE2066170100AA389F /* Quest.swift in Sources */,
+				1C984B3120585CC10076FD18 /* NotificationController.swift in Sources */,
+				1C984B2F20585CC10076FD18 /* ExtensionDelegate.swift in Sources */,
+				1C984B2D20585CC10076FD18 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C984B0620585CC10076FD18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C984AEF20585CC10076FD18 /* Everyday_Quest */;
+			targetProxy = 1C984B0520585CC10076FD18 /* PBXContainerItemProxy */;
+		};
+		1C984B1120585CC10076FD18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C984AEF20585CC10076FD18 /* Everyday_Quest */;
+			targetProxy = 1C984B1020585CC10076FD18 /* PBXContainerItemProxy */;
+		};
+		1C984B1B20585CC10076FD18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C984B1720585CC10076FD18 /* Everyday_Quest WatchKit App */;
+			targetProxy = 1C984B1A20585CC10076FD18 /* PBXContainerItemProxy */;
+		};
+		1C984B2A20585CC10076FD18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C984B2620585CC10076FD18 /* Everyday_Quest WatchKit Extension */;
+			targetProxy = 1C984B2920585CC10076FD18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1C984AF720585CC10076FD18 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C984AF820585CC10076FD18 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1C984AFC20585CC10076FD18 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C984AFD20585CC10076FD18 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1C984B1D20585CC10076FD18 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C984B1E20585CC10076FD18 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C984B3620585CC10076FD18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1C984B3720585CC10076FD18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C984B3920585CC10076FD18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 477847LKH7;
+				INFOPLIST_FILE = "Everyday_Quest WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ALL.Everyday-Quest.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Debug;
+		};
+		1C984B3A20585CC10076FD18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 477847LKH7;
+				INFOPLIST_FILE = "Everyday_Quest WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ALL.Everyday-Quest.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Release;
+		};
+		1C984B3D20585CC10076FD18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 477847LKH7;
+				IBSC_MODULE = Everyday_Quest_WatchKit_Extension;
+				INFOPLIST_FILE = "Everyday_Quest WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "ALL.Everyday-Quest.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Debug;
+		};
+		1C984B3E20585CC10076FD18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 477847LKH7;
+				IBSC_MODULE = Everyday_Quest_WatchKit_Extension;
+				INFOPLIST_FILE = "Everyday_Quest WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "ALL.Everyday-Quest.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Release;
+		};
+		1C984B4120585CC10076FD18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 477847LKH7;
+				INFOPLIST_FILE = Everyday_Quest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ALL.Everyday-Quest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1C984B4220585CC10076FD18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 477847LKH7;
+				INFOPLIST_FILE = Everyday_Quest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ALL.Everyday-Quest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1C984B4420585CC10076FD18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 477847LKH7;
+				INFOPLIST_FILE = Everyday_QuestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ALL.Everyday-QuestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Everyday_Quest.app/Everyday_Quest";
+			};
+			name = Debug;
+		};
+		1C984B4520585CC10076FD18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 477847LKH7;
+				INFOPLIST_FILE = Everyday_QuestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ALL.Everyday-QuestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Everyday_Quest.app/Everyday_Quest";
+			};
+			name = Release;
+		};
+		1C984B4720585CC10076FD18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 477847LKH7;
+				INFOPLIST_FILE = Everyday_QuestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ALL.Everyday-QuestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Everyday_Quest;
+			};
+			name = Debug;
+		};
+		1C984B4820585CC10076FD18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 477847LKH7;
+				INFOPLIST_FILE = Everyday_QuestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ALL.Everyday-QuestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Everyday_Quest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C984AEB20585CC00076FD18 /* Build configuration list for PBXProject "Everyday_Quest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C984B3620585CC10076FD18 /* Debug */,
+				1C984B3720585CC10076FD18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C984B3820585CC10076FD18 /* Build configuration list for PBXNativeTarget "Everyday_Quest WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C984B3920585CC10076FD18 /* Debug */,
+				1C984B3A20585CC10076FD18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C984B3C20585CC10076FD18 /* Build configuration list for PBXNativeTarget "Everyday_Quest WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C984B3D20585CC10076FD18 /* Debug */,
+				1C984B3E20585CC10076FD18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C984B4020585CC10076FD18 /* Build configuration list for PBXNativeTarget "Everyday_Quest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C984B4120585CC10076FD18 /* Debug */,
+				1C984B4220585CC10076FD18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C984B4320585CC10076FD18 /* Build configuration list for PBXNativeTarget "Everyday_QuestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C984B4420585CC10076FD18 /* Debug */,
+				1C984B4520585CC10076FD18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C984B4620585CC10076FD18 /* Build configuration list for PBXNativeTarget "Everyday_QuestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C984B4720585CC10076FD18 /* Debug */,
+				1C984B4820585CC10076FD18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C984AE820585CC00076FD18 /* Project object */;
+}
